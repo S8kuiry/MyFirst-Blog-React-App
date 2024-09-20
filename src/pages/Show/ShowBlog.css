@@ -1,0 +1,132 @@
+
+
+
+.showblog-page{
+    width:100%;
+    height:100vh;
+    padding-top:90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+
+}
+.pg-full{
+    padding-top: 15px;
+    margin-top:500px;
+    margin-bottom:50px;
+    width:650px;
+    height:1000px;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgb(15, 14, 13);
+
+
+}
+.title-section{
+    width:90%;
+    height:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    margin:29px 10px;
+    border-radius:50px;
+    
+    padding-left:10px;
+    background-color: rgb(214, 210, 210);
+    
+}
+.blog-section{
+    width:90%;
+    height:50%;
+    background-color: whitesmoke;
+    border-radius:5px;
+    padding:10px 10px;
+    background-color: rgb(214, 210, 210);
+
+
+}
+.comment-section{
+    width:90%;
+    height:32%;
+    background-color: aliceblue;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.comment-section form{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:0.5px solid rgba(0, 0, 0, 0.44);
+
+
+
+}
+.comment-section form input{
+    padding-left:10px;
+    width:90%;
+    height:50px;
+    outline: none;  
+    border: none;
+
+}
+.comment-section  form button{
+    border:none;
+    height:8vh;
+    width:100px;
+    background-color: green;
+    color:whitesmoke
+}
+.comment-display{
+    width:100%;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y:scroll;
+    background-color: rgb(124, 120, 120);
+}
+.cmt{
+    
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    height:55px;
+    margin:20px 0px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+.cmt-left{
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    background-image: url(/download.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right:5px;
+
+}
+.cmt-right{
+    
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding:0px;
+}
